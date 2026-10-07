@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mi Página Personal</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f4f9;
+      color: #333;
+    }
+    header {
+      background-color: #4CAF50;
+      color: white;
+      text-align: center;
+      padding: 1.5em;
+    }
+    nav {
+      background: #333;
+      padding: 0.5em;
+    }
+    nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 2em;
+    }
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 1em;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Bienvenido a mi sitio web</h1>
+    <p>Este es un ejemplo básico de página personal</p>
+  </header>
+
+  <nav>
+    <a href="#sobre-mi">Sobre mí</a>
+    <a href="#proyectos">Proyectos</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <section id="sobre-mi">
+    <h2>Sobre mí</h2>
+    <p>Hola, soy Ori. Me interesa la investigación y la tecnología. Este sitio es una muestra de cómo se puede crear una página sencilla con HTML y CSS.</p>
+  </section>
+
+  <section id="proyectos">
+    <h2>Proyectos</h2>
+    <ul>
+      <li>Investigación universitaria sobre infancia institucionalizada</li>
+      <li>Aprendiendo a usar Microsoft To Do</li>
+      <li>Explorando el diseño web</li>
+    </ul>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>Puedes escribirme a: <a href="mailto:tuemail@example.com">tuemail@example.com</a></p>
+  </section>
+
+  <footer>
+    <p>© 2026 Mi Página Personal</p>
+  </footer>
+</body>
+</html>
